@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ALMERÍA Y SUS COLORES</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery.pagepiling.css" />
+    <link rel="stylesheet" href="css/simplelightbox.css" />
+   
+</head>
+<body>
+    <div id="pagepiling" >
+      
+        <div class="section header">
+                    <div class=" text_mask">
+                      
+                        <h1>ALMERÍA</h1>
+                        
+                    </div>
+        </div>
+
+        <div class="section sol">
+            <div class="sol_mask">
+                <h2>DESCUBRE...</h2>
+                <h1>EL SOL</h1>   
+              
+            </div>         
+         
+        </div>
+
+        <div class="section sol2">
+            
+        
+        </div>
+
+        <div class="section playa">
+            <h1>SUS PLAYAS</h1>
+        
+        </div>
+
+        <div class="section playa2">
+                
+            
+        </div>
+
+        <div class="section galeria gallery">
+                
+
+              <div class="container1">
+
+                    <div class="box1">
+
+                        <a href="assets/gallery/1.jpg">                           
+                            <img src="assets/gallery/1.jpg" alt="Lorem ipsum.">
+                        </a>
+                        
+
+                    </div>
+
+                    <div class="box1">
+                        <a href="assets/gallery/2.jpg">
+                            <img src="assets/gallery/2.jpg" alt="Lorem ipsum dolor sit amet, consectetur.">
+                        </a>
+
+                    </div>
+                    <div class="box1">
+                        <a href="assets/gallery/3.jpg">
+                            <img src="assets/gallery/3.jpg" alt="Lorem ipsum dolor sit amet, consectetur.">
+                        </a>
+
+                        </div>
+
+        	</div>
+
+            <div class="container2">
+
+                    <div class="box1">                        
+                        <a href="assets/gallery/4.jpg">
+                            <img src="assets/gallery/4.jpg" alt="Lorem ipsum dolor sit amet, consectetur.">
+                        </a>
+
+                    </div>
+
+
+          </div>
+ </div>
+   
+
+    </div>
+
+    
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="js/simple-lightbox.min.js"></script>
+    <script type="text/javascript" src="js/jquery.pagepiling.js"></script>
+
+<script>
+
+$(document).ready(function() {
+    $('#pagepiling').pagepiling();
+    var gallery = $('.gallery a').simpleLightbox();
+    gallery.next(); 
+
+});
+
+</script>
+</body>
+</html>
